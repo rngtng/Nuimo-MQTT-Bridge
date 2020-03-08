@@ -4,6 +4,12 @@
     "slug": "nuimo",
     "description": "Addon for Nuimo controller by Scenic, implemented with NodeJS and MQTT",
     "startup": "application",
+    "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "i386"
+      ],
     "boot": "auto",
     "options": {
         "mqtt": {
